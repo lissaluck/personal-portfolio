@@ -1,0 +1,171 @@
+body {
+    padding-top: 50px;
+    font-family: "Source Sans Pro";
+    background-image: url("images/contemporary_china_2.png");
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+}
+
+div.container.head {
+    background-color: #84bd00;
+}
+
+.navbar {
+    background-color: #84bd00;
+}
+
+.brand-name {
+    color: #84bd00;
+    font-family: "SignPainter";
+    font-size: 4.5em;
+}
+
+a.navbar-brand {
+    padding-top: 3px;
+}
+
+.nav {
+    background-color: #84bd00;
+    font-size: larger;
+}
+
+.nav > li > a {
+    background-color: #84bd00;
+    color: #FFFFFF;
+}
+
+.nav > li > a:hover {
+    background-color: #FFFFFF;
+    color: #0084bd;
+}
+
+.nav > li > a:focus {
+    background-color: #0084bd;
+    color: #FFFFFF;
+}
+
+.nav > li > a:active {
+    background-color: #0084bd;
+    color: #FFFFFF;
+}
+
+.fa {
+    text-align: right;
+}
+
+.fa-bars {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #0084bd;
+}
+
+h3 {
+    color: #0084bd;
+}
+
+.box {
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.box-pink {
+    background-color: #bd0084;
+    display: inline-block;
+}
+
+.box-greenery {
+    background-color: #84bd00;
+    display: inline-block;
+}
+
+.box-blue {
+    background-color: #0084bd;
+    display: inline-block;
+}
+
+img.color-flip {
+    filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .4s ease-in-out;
+}
+
+img.color-flip:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+}
+
+div.skills-img {
+    display: inline-block;
+    padding: 15px;
+}
+
+.skills-box {
+    max-height: 45px;
+}
+
+.contact, .contact > a {
+    color: #84bd00;
+    display: inline;
+    padding: 0px 10px;
+    font-size: larger;
+}
+
+.contact > a:hover {
+    color: #0084bd;
+}
+
+.contact > a:visited {
+    color: #bd0084;
+}
+
+.footer {
+    font-size: smaller;
+    font-style: italic;
+}
+
+@media only screen and (max-width : 992px) {
+    .box {
+        margin: 15px;
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width : 768px) {
+
+    .box {
+        margin: 15px;
+        width: 275px;
+        height: 275px;
+    }
+
+    .contact {
+        display: block;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+    .box {
+        margin: 15px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .contact {
+        display: block;
+    }
+}
